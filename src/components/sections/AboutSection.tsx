@@ -27,10 +27,10 @@ export default function AboutSection() {
                 journey. We combine English language curriculum, Arabic, Islamic studies, and daily
                 prayers.
               </p>
-              <p className="text-gray-700 text-sm font-semibold">
+              <p className="text-gray-700 leading-relaxed text-base sm:text-lg font-semibold">
                 Ages {SITE.ages} &bull; {SITE.hours}
               </p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
                 Located at <strong>Masjid Jafar (Al-Rahmah Community Center)</strong> &mdash;
                 serving North Fulton and surrounding areas.
               </p>
