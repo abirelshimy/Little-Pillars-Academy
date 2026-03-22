@@ -52,17 +52,17 @@ export const FOUNDERS: Founder[] = [
 export const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Curriculum", href: "#curriculum" },
-  { label: "Schedule", href: "#schedule" },
+  { label: "Calendar", href: "#calendar" },
   {
     label: "Parent Resources",
-    href: "#policies",
+    href: "/policies",
     children: [
-      { label: "Policies", href: "#policies" },
-      { label: "Nutrition & Meals", href: "#nutrition" },
-      { label: "Supply List", href: "#supply-list" },
-      { label: "Parent Communication", href: "#parent-communication" },
+      { label: "Daily Schedule", href: "/schedule" },
+      { label: "Nutrition & Meals", href: "/nutrition" },
+      { label: "Parent Communication", href: "/parent-communication" },
+      { label: "Policies", href: "/policies" },
+      { label: "Supply List", href: "/supply-list" },
     ],
   },
-  { label: "Calendar", href: "#calendar" },
   { label: "Contact", href: "#contact" },
 ] as const;
