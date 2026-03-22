@@ -3,25 +3,56 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FBF8F3;
+  --foreground: #1E1E2E;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Islamic geometric pattern for dividers */
+.islamic-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23C5A54E' fill-opacity='0.15'%3E%3Cpath d='M30 0l30 30-30 30L0 30z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Subtle arabesque overlay */
+.hero-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(49, 96, 160, 0.85) 0%,
+    rgba(49, 96, 160, 0.6) 40%,
+    rgba(26, 138, 125, 0.4) 100%
+  );
+}
+
+/* Schedule timeline connector */
+.timeline-line {
+  background: linear-gradient(to bottom, #C5A54E, #1A8A7D);
+}
+
+/* Accordion animation */
+.accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.accordion-content.open {
+  grid-template-rows: 1fr;
+}
+
+.accordion-inner {
+  overflow: hidden;
 }
