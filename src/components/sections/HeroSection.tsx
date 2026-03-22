@@ -13,7 +13,7 @@ export default function HeroSection() {
         alt="Children learning together in Jafar Little Pillars Academy"
         fill
         priority
-        className="object-cover object-top"
+        className="object-cover object-[70%_top] sm:object-top"
         sizes="100vw"
       />
 
