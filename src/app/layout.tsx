@@ -64,9 +64,9 @@ export default function RootLayout({
                 postalCode: "30022",
                 addressCountry: "US",
               },
-              telephone: ["(678) 779-1975", "(678) 662-8068"],
+              telephone: ["(678) 779-1975", "(678) 662-8066"],
               email: "melshimy1@gmail.com",
-              openingHours: "Mo-Fr 07:00-17:00",
+              openingHours: "Mo-Fr 08:30-14:30",
               url: "https://www.masjidjafaratl.com/",
             }),
           }}
