@@ -10,7 +10,7 @@ export default function HeroSection() {
       {/* Background Image - positioned to show kids */}
       <Image
         src="/images/cover.png"
-        alt="Children learning together in Jafar Little Pillars Academy"
+        alt="Children learning together in Little Pillars Academy"
         fill
         priority
         className="object-cover object-[70%_top] sm:object-top"
@@ -33,7 +33,7 @@ export default function HeroSection() {
         >
           <Image
             src="/images/logo.png"
-            alt="Jafar Little Pillars Academy Logo"
+            alt="Little Pillars Academy Logo"
             width={90}
             height={90}
             className="mx-auto mb-4 drop-shadow-lg"
@@ -46,7 +46,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-heading text-4xl sm:text-5xl lg:text-6xl text-purple mb-2 leading-tight"
         >
-          Jafar Little Pillars
+          Little Pillars
           <span className="block text-gold text-5xl sm:text-6xl lg:text-7xl mb-4">Academy</span>
         </motion.h1>
 

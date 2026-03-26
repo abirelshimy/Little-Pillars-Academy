@@ -17,7 +17,7 @@ export default function AboutSection() {
             <div className="space-y-5">
               <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
                 Starting a preschool is an exciting time to engage, inspire, and feed your child&apos;s
-                appetite for knowledge. At Jafar Little Pillars Academy, our goal is to provide a
+                appetite for knowledge. At Little Pillars Academy, our goal is to provide a
                 positive, safe, healthy Islamic environment where children can develop the skills they
                 need to be ready for school.
               </p>

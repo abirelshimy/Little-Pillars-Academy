@@ -18,20 +18,20 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Jafar Little Pillars Academy | Islamic Preschool in Johns Creek, GA",
+  title: "Little Pillars Academy | Islamic Preschool in Johns Creek, GA",
   description:
-    "Jafar Little Pillars Academy is an Islamic preschool in Johns Creek, GA offering full-day childcare for children ages 9 months to 4 years in a nurturing, faith-based environment with Quran, Arabic, and STEAM-based learning.",
+    "Little Pillars Academy is an Islamic preschool in Johns Creek, GA offering full-day childcare for children ages 9 months to 4 years in a nurturing, faith-based environment with Quran, Arabic, and STEAM-based learning.",
   keywords: [
     "Islamic preschool Johns Creek",
     "Muslim daycare Georgia",
     "faith-based childcare North Fulton",
-    "Jafar Little Pillars",
+    "Little Pillars",
     "Islamic early education",
     "Quran preschool Atlanta",
     "Arabic preschool Georgia",
   ],
   openGraph: {
-    title: "Jafar Little Pillars Academy | Islamic Preschool",
+    title: "Little Pillars Academy | Islamic Preschool",
     description:
       "A nurturing Islamic environment for children ages 9 months to 4 years. Quran, Arabic, English curriculum, and STEAM-based learning in Johns Creek, GA.",
     type: "website",
@@ -53,7 +53,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ChildCare",
-              name: "Jafar Little Pillars Academy",
+              name: "Little Pillars Academy",
               description:
                 "Islamic preschool offering full-day childcare for children ages 9 months to 4 years.",
               address: {

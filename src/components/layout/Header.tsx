@@ -41,7 +41,7 @@ export default function Header() {
           <a href="#" className="flex items-center gap-3 group">
             <Image
               src="/images/logo.png"
-              alt="Jafar Little Pillars Academy Logo"
+              alt="Little Pillars Academy Logo"
               width={44}
               height={44}
             />
