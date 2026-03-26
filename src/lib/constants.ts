@@ -4,7 +4,7 @@ export const SITE = {
   description:
     "Jafar Little Pillars Academy is an Islamic preschool in Johns Creek, GA offering full-day childcare for children ages 9 months to 4 years in a nurturing, faith-based environment.",
   ages: "9 months - 4 years",
-  hours: "Monday - Friday, 8:30 AM - 2:30 PM",
+  hours: "Monday - Friday, 8:00 AM - 2:30 PM",
   registrationUrl: "https://form.jotform.com/251866814979073",
   masjidUrl: "https://www.masjidjafaratl.com/",
 } as const;
